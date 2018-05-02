@@ -9,11 +9,7 @@ import {HttpClient} from '@angular/common/http';
 })
 export class AppComponent {
   title = 'app';
-  countries: Country[]= [
-      {id: 1001, name: 'Italia', lat: 42, lng: 12},
-      {id: 1002, name: 'Stati Uniti', lat: 111, lng: 33},
-      {id: 1003, name: 'Gibilterra', lat: 11, lng: 44}
-  ]
+  countries: Country[];
   myLat: number;
   myLng: number;
   currentCountry: Country;

@@ -7,6 +7,7 @@ import {MapComponent} from '../components/gmap';
 import {FormsModule} from '@angular/forms';
 import {TabbarComponent} from '../components/tabbar';
 import {HttpClientModule} from '@angular/common/http';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import {HttpClientModule} from '@angular/common/http';
     BrowserModule,
       FormsModule,
       HttpClientModule,
+      AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
